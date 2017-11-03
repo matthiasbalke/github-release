@@ -5,7 +5,7 @@ version: 2
 
 jobs:
 
-  linux:
+  build:
     docker:
       # specify the version
       - image: circleci/golang:1.8
